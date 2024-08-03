@@ -10,7 +10,7 @@ function CartList() {
     <>
       <div className="">
         {cart.length > 0 ? (
-          cart.map((item) => <CartItem item={item} key={item.name} />)
+          cart.map((item) => <CartItem item={item} key={item.id} />)
         ) : (
           <EmptyCart />
         )}

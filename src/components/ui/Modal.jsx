@@ -14,15 +14,15 @@ function Modal({ isVisible, onClose }) {
   return (
     <div
       onClick={onClose}
-      className="fixed inset-0 bg-gray-600 bg-opacity-50 flex items-end sm:items-center justify-center z-50"
+      className="fixed inset-0 bg-gray-600 bg-opacity-50 flex items-end md:items-center justify-center z-50"
     >
       <div
-        className="relative bg-white p-6 sm:p-10 rounded-t-lg sm:rounded-lg shadow-lg w-full sm:w-10/12 md:w-8/12 lg:w-6/12 xl:w-5/12 h-10/12 sm:h-auto overflow-y-auto"
+        className="relative bg-white p-6 md:p-10 rounded-t-lg md:rounded-lg shadow-lg w-full md:w-10/12 lg:w-8/12 xl:w-6/12 h-10/12 md:h-auto overflow-y-auto"
         onClick={(ev) => ev.stopPropagation()}
       >
         <div className="flex flex-col justify-center mt-4">
           <OrderConfirmed />
-          <h1 className="font-bold text-2xl sm:text-3xl my-2">
+          <h1 className="font-bold text-2xl md:text-3xl my-2">
             Order Confirmed
           </h1>
           <h2 className="text-rose-300 font-bold">

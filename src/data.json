@@ -109,20 +109,5 @@
       "id": "dc3e"
     }
   ],
-  "cart": [
-    {
-      "id": "c74f",
-      "name": "Vanilla Panna Cotta",
-      "image": {
-        "thumbnail": "src/assets/images/image-panna-cotta-thumbnail.jpg",
-        "mobile": "src/assets/images/image-panna-cotta-mobile.jpg",
-        "tablet": "src/assets/images/image-panna-cotta-tablet.jpg",
-        "desktop": "src/assets/images/image-panna-cotta-desktop.jpg"
-      },
-      "categpry": "Panna Cotta",
-      "price": 6.5,
-      "totalPrice": 6.5,
-      "amount": 1
-    }
-  ]
+  "cart": []
 }

@@ -19,9 +19,9 @@ function ItemList() {
   }, []);
 
   return (
-    <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5">
+    <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3  gap-6 justify-items-center">
       {items.map((item) => {
-        return <Item key={item.id} item={item} />;
+        return <Item key={item.name} item={item} />;
       })}
     </div>
   );

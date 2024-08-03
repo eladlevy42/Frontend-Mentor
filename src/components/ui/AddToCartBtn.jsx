@@ -10,7 +10,7 @@ function AddToCartBtn({ item, isAdded }) {
     return (
       <button
         onClick={() => addItem(item)}
-        className="relative mx-auto font-bold flex items-center justify-center w-full sm:w-40 md:w-40 lg:w-4/6 h-12 bg-white border-2 border-rose-500 border-opacity-50 rounded-full hover:text-rose-500 text-xs transition duration-200 ease-in-out"
+        className="relative bottom-4 mx-auto font-bold flex items-center justify-center w-4/6 sm:w-5/6  h-12 bg-white border-2 border-rose-500 border-opacity-50 rounded-full hover:text-rose-500 text-xs transition duration-200 ease-in-out px-2 "
       >
         <AddToCartLogo />
         <span className="px-2 sm:block md:hidden lg:block">Add To Cart</span>
@@ -18,7 +18,7 @@ function AddToCartBtn({ item, isAdded }) {
     );
   } else {
     return (
-      <div className="relative mx-auto font-bold flex items-center justify-between w-full sm:w-40 md:w-40 lg:w-4/6 h-12 bg-red-500 rounded-full">
+      <div className="bg-red relative bottom-4 mx-auto font-bold flex items-center justify-between w-4/6 sm:w-5/6 md:w-5/6 lg:w-4/6 h-12 bg-red-500 px-2 rounded-full">
         <CircleBtn
           func={() => removeOneItem(item)}
           symbol={
